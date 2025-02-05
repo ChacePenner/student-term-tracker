@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="D424Capstone.Views.TermDetail"
+             Title="TermDetail"
+             BackgroundColor="WhiteSmoke">
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label 
+            Text="{Binding TermDetails}"
+            FontAttributes="Bold"
+            FontSize="Large"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"
+            HorizontalTextAlignment="Center"/>
+
+        <Grid ColumnDefinitions="*, Auto, *" HorizontalOptions="CenterAndExpand">
+            <Button Margin="5" Text="Back" x:Name="backButton" Clicked="backButton_Clicked" MaximumWidthRequest="180" Grid.Column="0"/>
+            <Button Text="+ Add Course" Margin="5" x:Name="addCourseButton" Clicked="addCourseButton_Clicked" MaximumWidthRequest="180" Grid.Column="1"/>
+        </Grid>
+        
+        <CollectionView 
+            x:Name="coursesListview"
+            ItemsSource="{Binding Courses}"
+            Margin="10"    
+            SelectionChanged="OnCourseSelected"
+            SelectionMode="Single">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border>
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="StartAndExpand" Spacing="5" Padding="10"
+                                 >
+                            <Label Text="{Binding Name}"
+                                   FontAttributes="Bold"
+                                   HorizontalTextAlignment="Center"
+                                   LineBreakMode="WordWrap"/>
+                            <Label Text="{Binding DateRange}"
+                                   HorizontalTextAlignment="Center"
+                                   LineBreakMode="WordWrap"/>
+                            <Label Text="{Binding Status}"
+                                   HorizontalTextAlignment="Center"
+                                   LineBreakMode="WordWrap"/>
+                        </StackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+    </VerticalStackLayout>
+</ContentPage>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="D424Capstone.Pages.TermViewContentPage"
+             Title="TermViewContentPage"
+             BackgroundColor="WhiteSmoke"
+             NavigationPage.HasNavigationBar="False">
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label 
+            Text="WGU Term View"
+            FontSize="Large"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center"/>
+        <Button Text="+ Add Term" Margin="5"
+                x:Name="addTermButton"
+                Clicked="addTermButton_Clicked"
+                MaximumWidthRequest="180"
+         ></Button>
+
+
+        <CollectionView 
+            x:Name="termsListView"
+            VerticalOptions="FillAndExpand"
+            Margin="10"
+            ItemsSource="{Binding Term}"
+            SelectionMode="Single"
+            SelectedItem="{Binding SelectedTerm}">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Border>
+                        <StackLayout HorizontalOptions="Center" VerticalOptions="StartAndExpand" Spacing="5" Padding="10">
+                            <Label Text="{Binding Name}" HorizontalTextAlignment="Center" FontAttributes="Bold"></Label>
+                            <Label Text="{Binding DateRange}"></Label>
+                        </StackLayout>
+                    </Border>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
+        <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Spacing="20">
+            <Button Text="Edit" IsEnabled="{Binding IsTermSelected}" Clicked="editTermButton_Clicked"/>
+            <Button Text="Delete" IsEnabled="{Binding IsTermSelected}" Clicked="deleteTermButton_Clicked"/>
+            <Button Text="View" IsEnabled="{Binding IsTermSelected}" Clicked="viewTermButton_Clicked"/>
+        </StackLayout>
+    </VerticalStackLayout>
+</ContentPage>

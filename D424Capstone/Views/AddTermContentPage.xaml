@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="D424Capstone.Pages.AddTermContentPage"
+             Title="AddTermContentPage"
+             BackgroundColor="Beige">
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label 
+            Text="Add Term"
+            FontSize="Large"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Label Text="Term Name" FontSize="Medium" FontAttributes="Bold"/>
+        <Entry x:Name="TermNameEntry" Placeholder="Enter Term Name"/>
+
+        <Label Text="Start Date" FontSize="Medium" FontAttributes="Bold"/>
+        <DatePicker x:Name="StartDatePicker"/>
+
+        <Label Text="End Date" FontSize="Medium" FontAttributes="Bold"/>
+        <DatePicker x:Name="EndDatePicker"/>
+
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="CenterAndExpand">
+            <Button 
+                x:Name="cancelButton"
+                Clicked="cancelButton_Clicked"
+                Text="Cancel"
+                BackgroundColor="LightCoral"
+                />
+            <Button 
+                x:Name="saveButton"
+                Clicked="saveButton_Clicked"
+                Text="Save"
+                BackgroundColor="ForestGreen"></Button>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

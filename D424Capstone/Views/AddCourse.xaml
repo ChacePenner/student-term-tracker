@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="D424Capstone.Views.AddCourse"
+             Title="AddCourse"
+             BackgroundColor="Beige">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="3">
+            <Label 
+            Text="Add Course"
+            FontSize="Large"
+            FontAttributes="Bold"
+            VerticalOptions="Center" 
+            HorizontalOptions="Center" />
+
+            <Label Text="Course Name" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="courseNameEntry" Placeholder="Enter Course Name"/>
+
+            <Label Text="Start Date" FontSize="Medium" FontAttributes="Bold"/>
+            <DatePicker x:Name="courseStartDatePicker"/>
+
+            <Label Text="Start Date" FontSize="Medium" FontAttributes="Bold"/>
+            <DatePicker x:Name="courseEndDatePicker"/>
+
+            <Label Text="Instructor Name" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="instructorNameEntry" Placeholder="Enter Instructor Name"/>
+
+            <Label Text="Instructor Phone Number" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="instructorPhoneEntry" Keyboard="Telephone" Placeholder="Enter Instructor Phone Number"/>
+
+            <Label Text="Instructor Email" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="instructorEmailEntry" Placeholder="Enter Instructor Email"/>
+
+            <Label Text="Course Notes" FontSize="Medium" FontAttributes="Bold"/>
+            <Entry x:Name="courseNotes" Placeholder="Optional Course Notes"/>
+
+            <Label Text="Course Status" FontSize="Medium" FontAttributes="Bold"/>
+            <Picker x:Name="courseStatusPicker" Title="Select a Course Status">
+                <Picker.ItemsSource>
+                    <x:Array Type="{x:Type x:String}">
+                        <x:String>Not Started</x:String>
+                        <x:String>In Progress</x:String>
+                        <x:String>Completed</x:String>
+                        <x:String>Dropped</x:String>
+                    </x:Array>
+                </Picker.ItemsSource>
+                <Picker.SelectedIndex>0</Picker.SelectedIndex>
+            </Picker>
+
+            <HorizontalStackLayout Spacing="10" Margin="0, 20, 0, 0" HorizontalOptions="Center">
+                <Button Text="Cancel" Clicked="cancelButton_Clicked" BackgroundColor="LightCoral"/>
+                <Button Text="Save" Clicked="saveCourseButton_Clicked" BackgroundColor="ForestGreen"/>
+            </HorizontalStackLayout>
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>

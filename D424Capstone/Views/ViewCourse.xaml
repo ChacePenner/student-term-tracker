@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="D424Capstone.Views.ViewCourse"
+             Title="ViewCourse">
+    <ScrollView>
+        <VerticalStackLayout Padding="20" Spacing="20">
+            <Label 
+                Text="{Binding SelectedCourse.Name}"
+                FontSize="Title"
+                FontAttributes="Bold"
+                VerticalOptions="Center" 
+                HorizontalOptions="Center" />
+            <Button Text="Back" Clicked="backButton_Clicked" MaximumWidthRequest="180"/>
+
+            <Grid ColumnDefinitions="*,*" RowSpacing="10" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+                <Label Text="Course Name" FontAttributes="Bold" Grid.Row="0" Grid.Column="0"/>
+                <Label Text="{Binding SelectedCourse.Name}" Grid.Row="0" Grid.Column="1"/>
+
+                <Label Text="Start Date" FontAttributes="Bold" Grid.Row="1" Grid.Column="0"/>
+                <Label Text="{Binding SelectedCourse.StartDate, StringFormat='{0:MM/dd/yyyy}'}" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Text="End Date:" FontAttributes="Bold" Grid.Row="2" Grid.Column="0"/>
+                <Label Text="{Binding SelectedCourse.EndDate, StringFormat='{0:MM/dd/yyyy}'}" Grid.Row="2" Grid.Column="1"/>
+
+                <Label Text="Instructor Name:" FontAttributes="Bold" Grid.Row="3" Grid.Column="0"/>
+                <Label Text="{Binding SelectedCourse.InstructorName}" Grid.Row="3" Grid.Column="1"/>
+
+                <Label Text="Instructor Phone:" FontAttributes="Bold" Grid.Row="4" Grid.Column="0"/>
+                <Label Text="{Binding SelectedCourse.InstructorPhone}" Grid.Row="4" Grid.Column="1"/>
+
+                <Label Text="Instructor Email:" FontAttributes="Bold" Grid.Row="5" Grid.Column="0"/>
+                <Label Text="{Binding SelectedCourse.InstructorEmail}" Grid.Row="5" Grid.Column="1"/>
+
+                <Label Text="Notes:" FontAttributes="Bold" Grid.Row="6" Grid.Column="0"/>
+                <Label Grid.ColumnSpan="2" BackgroundColor="LightGray" Text="{Binding SelectedCourse.Notes}" Grid.Row="7" Grid.Column="0"/>
+
+                <Label Text="Course Status" FontAttributes="Bold" Grid.Row="8" Grid.Column="0"/>
+                <Label Text="{Binding SelectedCourse.Status}" Grid.Row="8" Grid.Column="1"/>
+
+                <Button Grid.Row="10" Grid.Column="0" Text="Set Reminder" ImageSource="notification.png" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" MaximumWidthRequest="70"
+                        Clicked="onCourseNotificationButton_Clicked" ToolTipProperties.Text="Set Course Reminder" >
+                </Button>
+
+                <Button Grid.Row="10" Grid.Column="1" Text="Share Notes" ImageSource="share.png" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" MaximumWidthRequest="70"
+        Clicked="onShareButton_Clicked"  ToolTipProperties.Text="Share Course Notes" >
+                </Button>
+
+            </Grid>
+
+            <HorizontalStackLayout Spacing="20" HorizontalOptions="Center">
+                <Button Text="Delete Course" BackgroundColor="Red" TextColor="White" Clicked="onDelete_Clicked"/>
+                <Button Text="Edit Course" BackgroundColor="Blue" TextColor="White" Clicked="onEdit_Clicked"/>
+            </HorizontalStackLayout>
+
+            <Label Text="Assessments" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Title" FontAttributes="Bold"/>
+
+            <Grid ColumnDefinitions="*,*" RowSpacing="10" BackgroundColor="LightGray" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+                <Label Text="Objective Assessment" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Subtitle" FontAttributes="Bold"
+                       Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+                
+                <Label Text="Assessment Name" FontAttributes="Bold" Grid.Row="1" Grid.Column="0"/>
+                <Label Text="{Binding SelectedObjectiveAssessment.Name, FallbackValue='None'}" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Text="Start Date" FontAttributes="Bold" Grid.Row="2" Grid.Column="0"/>
+                <Label Text="{Binding SelectedObjectiveAssessment.StartDate, StringFormat='{0:MM/dd/yyyy}', FallbackValue='None'}" Grid.Row="2" Grid.Column="1"/>
+
+                <Label Text="Due Date" FontAttributes="Bold" Grid.Row="3" Grid.Column="0"/>
+                <Label Text="{Binding SelectedObjectiveAssessment.EndDate, StringFormat='{0:MM/dd/yyyy}', FallbackValue='None'}" Grid.Row="3" Grid.Column="1"/>
+
+                <HorizontalStackLayout Grid.Row="5">
+                    <Button Text="Delete" x:Name="ObjectiveDeleteButton" FontSize="Small"  BackgroundColor="Black" TextColor="White" MaximumHeightRequest="40"
+                            Clicked="onObjectiveDelete_Clicked"/>
+                    <Button Text="Edit" x:Name="ObjectiveEditButton" BackgroundColor="Black" TextColor="White" MaximumHeightRequest="40" Clicked="onObjectiveEditButton_Clicked"/>
+                    <Button Text="Add" x:Name="ObjectiveAddButton" BackgroundColor="Black" TextColor="White" MaximumHeightRequest="40" Clicked="onObjectiveAdd_Clicked"/>
+                    <Button Text="Set Objective Assessment Reminder" x:Name="ObjectiveReminderButton" ImageSource="notification.png" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" MaximumWidthRequest="70"
+                            Clicked="onObjectiveReminder_Clicked"  ToolTipProperties.Text="Set Objective Assessment Reminder"/>
+                </HorizontalStackLayout>
+            </Grid>
+
+            <Grid ColumnDefinitions="*,*" RowSpacing="10" BackgroundColor="LightGray" RowDefinitions="Auto, Auto, Auto, Auto, Auto, Auto, Auto">
+                <Label Text="Performance Assessment" HorizontalTextAlignment="Center" HorizontalOptions="Center" FontSize="Subtitle" FontAttributes="Bold"
+           Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="2"/>
+
+                <Label Text="Assessment Name" FontAttributes="Bold" Grid.Row="1" Grid.Column="0"/>
+                <Label Text="{Binding SelectedPerformanceAssessment.Name, FallbackValue='None'}" Grid.Row="1" Grid.Column="1"/>
+
+                <Label Text="Start Date" FontAttributes="Bold" Grid.Row="2" Grid.Column="0"/>
+                <Label Text="{Binding SelectedPerformanceAssessment.StartDate, StringFormat='{0:MM/dd/yyyy}', FallbackValue='None'}" Grid.Row="2" Grid.Column="1"/>
+
+                <Label Text="Due Date" FontAttributes="Bold" Grid.Row="3" Grid.Column="0"/>
+                <Label Text="{Binding SelectedPerformanceAssessment.EndDate, StringFormat='{0:MM/dd/yyyy}', FallbackValue='None'}" Grid.Row="3" Grid.Column="1"/>
+
+
+                <HorizontalStackLayout Grid.Row="5">
+                    <Button Text="Delete" x:Name="PerformanceDeleteButton" FontSize="Small"  BackgroundColor="Black" TextColor="White" MaximumHeightRequest="40"
+                            Clicked="onPerformanceDelete_Clicked"/>
+                    <Button Text="Edit" x:Name="PerformanceEditButton" BackgroundColor="Black" TextColor="White" MaximumHeightRequest="40" Clicked="onPerformanceEdit_Clicked"/>
+                    <Button Text="Add" x:Name="PerformanceAddButton" BackgroundColor="Black" TextColor="White" MaximumHeightRequest="40" Clicked="onPerformanceAdd_Clicked"/>
+                    <Button Text="Set Performance Assessment Reminder" x:Name="PerformanceReminderButton" ImageSource="notification.png" BackgroundColor="Transparent" HorizontalOptions="CenterAndExpand" MaximumWidthRequest="70" 
+                            Clicked="onPerformanceReminder_Clicked" ToolTipProperties.Text="Set Performance Assessment Reminder"/>
+                </HorizontalStackLayout>
+            </Grid>
+
+        </VerticalStackLayout>
+    </ScrollView>
+</ContentPage>
