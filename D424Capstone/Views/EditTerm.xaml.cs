@@ -24,12 +24,13 @@ namespace D424Capstone.Views
 
         private async void saveButton_Clicked(object sender, EventArgs e)
         {
+            //Demonstration of task B - Validation
             if (string.IsNullOrWhiteSpace(TermNameEntry.Text))
             {
                 await DisplayAlert("Error", "Please provide a term name.", "Okay");
                 return;
             }
-
+            //Demonstration of task B - Validation
             if (StartDatePicker.Date >= EndDatePicker.Date)
             {
                 await DisplayAlert("Error", "The start date must be before the end date.", "Okay");

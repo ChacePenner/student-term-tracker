@@ -6,6 +6,7 @@ using SQLite;
 
 namespace D424Capstone.Pages
 {
+    //Demonstration of task B - Encapsulation
     public partial class TermViewContentPage : ContentPage
     {
         private readonly DatabaseService _dbService;

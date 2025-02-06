@@ -31,7 +31,7 @@ namespace D424Capstone.Views
 
         private async void saveCourseButton_Clicked(object sender, EventArgs e)
         {
-
+            //Demonstration of task B - Validation
             if (string.IsNullOrWhiteSpace(courseNameEntry.Text))
             {
                 await DisplayAlert("Error", "Please provide a course name.", "Okay");

@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\D424Capstone",
+    "\\D424Capstone\\Views"
   ],
-  "SelectedNode": "\\C:\\D424Capstone",
+  "SelectedNode": "\\D424Capstone\\D424Capstone.csproj",
   "PreviewInSolutionExplorer": false
 }

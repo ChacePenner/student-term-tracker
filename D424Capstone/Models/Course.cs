@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 using SQLite;
 using ColumnAttribute = SQLite.ColumnAttribute;
 
+//Demonstration of task B - A database component to securely add, modify, and delete the data.
 namespace D424Capstone.Models
 {
     public class Course

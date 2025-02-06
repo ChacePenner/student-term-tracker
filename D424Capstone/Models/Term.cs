@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using SQLite;
 
+//Demonstration of task B - A database component to securely add, modify, and delete the data.
 namespace D424Capstone.Models
 {
     public class Term

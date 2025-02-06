@@ -1,4 +1,8 @@
 is_global = true
+build_property.EnableAotAnalyzer = 
+build_property.EnableSingleFileAnalyzer = true
+build_property.EnableTrimAnalyzer = false
+build_property.IncludeAllContentForSelfExtract = 
 build_property.TargetFramework = net8.0-android
 build_property.TargetPlatformMinVersion = 
 build_property.UsingMicrosoftNETSdkWeb = 
@@ -13,3 +17,87 @@ build_property.EnableComHosting =
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.EffectiveAnalysisLevelStyle = 8.0
 build_property.EnableCodeStyleSeverity = 
+
+[C:/D424Capstone/D424Capstone/App.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.App.xaml
+build_metadata.AdditionalFiles.TargetPath = App.xaml
+build_metadata.AdditionalFiles.RelativePath = App.xaml
+
+[C:/D424Capstone/D424Capstone/Resources/Styles/Colors.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Resources.Styles.Colors.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
+
+[C:/D424Capstone/D424Capstone/Resources/Styles/Styles.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Resources.Styles.Styles.xaml
+build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
+build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
+
+[C:/D424Capstone/D424Capstone/Views/AddCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.AddCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddCourse.xaml
+
+[C:/D424Capstone/D424Capstone/Views/AddObjectiveAssessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.AddObjectiveAssessment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddObjectiveAssessment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddObjectiveAssessment.xaml
+
+[C:/D424Capstone/D424Capstone/Views/AddPerformanceAssessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.AddPerformanceAssessment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddPerformanceAssessment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddPerformanceAssessment.xaml
+
+[C:/D424Capstone/D424Capstone/Views/AddTermContentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.AddTermContentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\AddTermContentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\AddTermContentPage.xaml
+
+[C:/D424Capstone/D424Capstone/Views/EditCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.EditCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditCourse.xaml
+
+[C:/D424Capstone/D424Capstone/Views/EditObjectiveAssessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.EditObjectiveAssessment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditObjectiveAssessment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditObjectiveAssessment.xaml
+
+[C:/D424Capstone/D424Capstone/Views/EditPerformanceAssessment.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.EditPerformanceAssessment.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditPerformanceAssessment.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditPerformanceAssessment.xaml
+
+[C:/D424Capstone/D424Capstone/Views/EditTerm.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.EditTerm.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\EditTerm.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\EditTerm.xaml
+
+[C:/D424Capstone/D424Capstone/Views/TermDetail.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.TermDetail.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TermDetail.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TermDetail.xaml
+
+[C:/D424Capstone/D424Capstone/Views/TermViewContentPage.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.TermViewContentPage.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\TermViewContentPage.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\TermViewContentPage.xaml
+
+[C:/D424Capstone/D424Capstone/Views/ViewCourse.xaml]
+build_metadata.AdditionalFiles.GenKind = Xaml
+build_metadata.AdditionalFiles.ManifestResourceName = D424Capstone.Views.ViewCourse.xaml
+build_metadata.AdditionalFiles.TargetPath = Views\ViewCourse.xaml
+build_metadata.AdditionalFiles.RelativePath = Views\ViewCourse.xaml
