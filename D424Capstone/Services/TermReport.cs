@@ -13,7 +13,7 @@ namespace D424Capstone.Services
 
         public TermReport()
         {
-            Title = "Term Report";
+            Title = "WGU STUDENT REPORT";
             Terms = new List<Term>();
             
         }
@@ -48,7 +48,8 @@ namespace D424Capstone.Services
         {
             await GenerateReport();
             StringBuilder reportTable = new StringBuilder();
-            reportTable.AppendLine($"<p>Report Generated on: {DateTimeStamp:MM/dd/yyyy hh:mm tt}</p>");
+            reportTable.AppendLine($"<h2 style='text-align: center; font-weight: bold;'>{Title}</h2>");
+            reportTable.AppendLine($"<p style='text-align: center;'>Report Generated on: {DateTimeStamp:MM/dd/yyyy hh:mm tt}</p>");
             reportTable.AppendLine("<table border='1'>");
             reportTable.AppendLine("<thead><tr><th>Term</th><th>Course</th><th>Start Date</th><th>End Date</th></tr></thead>");
             reportTable.AppendLine("<tbody>");
