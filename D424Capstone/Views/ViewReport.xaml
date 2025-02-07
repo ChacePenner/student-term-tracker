@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="D424Capstone.Views.ViewReport"
+             Title="ViewReport">
+    <VerticalStackLayout Padding="20" Spacing="20">
+        <Label 
+            Text="Generate Report"
+            FontSize="Large"
+            FontAttributes="Bold"
+            HorizontalOptions="Center" />
+
+        <Label Text="Click to generate a report of all terms with courses." FontAttributes="Bold" HorizontalTextAlignment="Center"/>
+
+        <HorizontalStackLayout Spacing="10" HorizontalOptions="CenterAndExpand">
+            <Button
+                x:Name="cancelButton"
+                Clicked="cancelButton_Clicked"
+                Text="Cancel"
+                BackgroundColor="LightCoral"/>
+
+            <Button
+                x:Name="generateReportButton"
+                Clicked="generateReportButton_Clicked"
+                Text="Generate Report"
+                BackgroundColor="ForestGreen"/>
+        </HorizontalStackLayout>
+
+        <WebView x:Name="reportDisplay" HeightRequest="400"/>
+    </VerticalStackLayout>
+</ContentPage>

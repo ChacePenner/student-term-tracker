@@ -120,5 +120,11 @@ namespace D424Capstone.Pages
         {
             SelectedTerm = (Term)e.SelectedItem;
         }
+
+        private async void generateReportButton_Clicked(object sender, EventArgs e)
+        {
+            var viewReport = new ViewReport();
+            await Navigation.PushModalAsync(viewReport);
+        }
     }
 }

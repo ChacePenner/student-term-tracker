@@ -12,12 +12,18 @@
             FontAttributes="Bold"
             VerticalOptions="Center" 
             HorizontalOptions="Center"/>
-        <Button Text="+ Add Term" Margin="5"
+        <HorizontalStackLayout HorizontalOptions="Center">
+            <Button Text="Generate Report"
+                    x:Name="generateReportButton"
+                    Clicked="generateReportButton_Clicked"
+                    MaximumWidthRequest="180"
+                    Margin="5"/>
+            <Button Text="+ Add Term" Margin="5"
                 x:Name="addTermButton"
                 Clicked="addTermButton_Clicked"
                 MaximumWidthRequest="180"
          ></Button>
-
+        </HorizontalStackLayout>
 
         <CollectionView 
             x:Name="termsListView"
