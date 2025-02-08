@@ -12,6 +12,17 @@
             FontAttributes="Bold"
             VerticalOptions="Center" 
             HorizontalOptions="Center"/>
+        <SearchBar x:Name="termSearchBar"
+                   Placeholder="Search for a course within a term..."
+                   TextChanged="termSearchBar_TextChanged"/>
+
+        <Label x:Name="ResultsLabel"
+               Text=""
+               IsVisible="False"
+               TextColor="Red"
+               HorizontalOptions="Center"
+               HorizontalTextAlignment="Center"/>
+
         <HorizontalStackLayout HorizontalOptions="Center">
             <Button Text="Generate Report"
                     x:Name="generateReportButton"

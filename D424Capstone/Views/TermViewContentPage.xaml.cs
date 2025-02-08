@@ -11,12 +11,14 @@ namespace D424Capstone.Pages
     {
         private readonly DatabaseService _dbService;
         private ObservableCollection<Term> _terms;
+        private List<Term> _allTerms;
         public TermViewContentPage(DatabaseService dbService)
         {
             InitializeComponent();
             _dbService = dbService;
 
             _terms = new ObservableCollection<Term>();
+            _allTerms = new List<Term>();
             BindingContext = this;
             termsListView.ItemsSource = _terms;
         }
@@ -42,11 +44,14 @@ namespace D424Capstone.Pages
             try
             {
                 var terms = await _dbService.GetTerms();
+                _allTerms.Clear();
+                _allTerms.AddRange(terms);
                 _terms.Clear();
-                foreach (var term in terms)
+                foreach (var term in _allTerms)
                 {
                     _terms.Add(term);
                 }
+                ResultsLabel.IsVisible = false;
             }
             catch (Exception ex)
             {
@@ -125,6 +130,53 @@ namespace D424Capstone.Pages
         {
             var viewReport = new ViewReport();
             await Navigation.PushModalAsync(viewReport);
+        }
+
+        private async void termSearchBar_TextChanged(object sender, TextChangedEventArgs e)
+        {
+            string searchText = e.NewTextValue?.Trim() ?? string.Empty;
+
+            if (string.IsNullOrWhiteSpace(searchText))
+            {
+                _terms.Clear();
+                foreach (var term in _allTerms)
+                {
+                    _terms.Add(term);
+                }
+                ResultsLabel.IsVisible = false;
+            }
+            else
+            {
+                var filteredTerms = new List<Term>();
+                var dbService = new DatabaseService();
+                foreach (var term in _allTerms)
+                {
+                    var courses = await dbService.GetCoursesForTerm(term.Id);
+                    if (courses.Any(c => c.Name.IndexOf(searchText, StringComparison.OrdinalIgnoreCase) >= 0))
+                    {
+                        filteredTerms.Add(term);
+                    }
+                }
+
+                _terms.Clear();
+                foreach (var term in filteredTerms)
+                {
+                    _terms.Add(term);
+                }
+                if (filteredTerms.Count > 0)
+                {
+                    ResultsLabel.Text = $"Now displaying all terms that contain a course named or partially named '{searchText}'.";
+                    ResultsLabel.TextColor = Colors.Green;
+                    ResultsLabel.IsVisible = true;
+                }
+                else
+                {
+                    ResultsLabel.Text = $"No terms contain a course with the name or partial name '{searchText}'.";
+                    ResultsLabel.TextColor = Colors.Red;
+                    ResultsLabel.IsVisible = true;
+                }
+                
+            }
         }
     }
 }
