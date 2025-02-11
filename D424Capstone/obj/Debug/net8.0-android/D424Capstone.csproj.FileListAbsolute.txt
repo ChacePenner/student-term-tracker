@@ -1098,3 +1098,4 @@ C:\D424Capstone\D424Capstone\obj\Debug\net8.0-android\stamp\_ConvertResourcesCas
 C:\D424Capstone\D424Capstone\obj\Debug\net8.0-android\stamp\_GenerateJavaStubs.stamp
 C:\D424Capstone\D424Capstone\obj\Debug\net8.0-android\stamp\_GeneratePackageManagerJava.stamp
 C:\D424Capstone\D424Capstone\obj\Debug\net8.0-android\stamp\_ResolveLibraryProjectImports.stamp
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0-android\android\assets\BCrypt.Net-Next.dll

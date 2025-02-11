@@ -8,6 +8,12 @@
     <DefaultDevice>pixel_7_-_api_34</DefaultDevice>
   </PropertyGroup>
   <ItemGroup>
+    <MauiXaml Update="Views\LoginPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="Views\RegistrationPage.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
     <MauiXaml Update="Views\ViewReport.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>

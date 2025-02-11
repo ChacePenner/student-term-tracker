@@ -38,6 +38,9 @@ namespace D424Capstone
             builder.Services.AddTransient<AddPerformanceAssessment>();
             builder.Services.AddTransient<EditObjectiveAssessment>();
             builder.Services.AddTransient<EditPerformanceAssessment>();
+            builder.Services.AddTransient<Users>();
+            builder.Services.AddTransient<LoginPage>();
+            builder.Services.AddTransient<RegistrationPage>();
 
             //Add builder services for each new content page.
 

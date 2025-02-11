@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "W0Bo6x6xql0=",
+  "dgSpecHash": "l/iIuMSB0ao=",
   "success": true,
   "projectFilePath": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\Chace\\.nuget\\packages\\bcrypt.net-next\\4.0.3\\bcrypt.net-next.4.0.3.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\googlegson\\2.10.1.4\\googlegson.2.10.1.4.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.extensions.configuration\\8.0.0\\microsoft.extensions.configuration.8.0.0.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\8.0.0\\microsoft.extensions.configuration.abstractions.8.0.0.nupkg.sha512",

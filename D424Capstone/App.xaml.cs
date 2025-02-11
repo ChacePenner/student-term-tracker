@@ -1,5 +1,6 @@
 ﻿using D424Capstone.Pages;
 using D424Capstone.Services;
+using D424Capstone.Views;
 
 namespace D424Capstone
 {
@@ -9,8 +10,8 @@ namespace D424Capstone
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new TermViewContentPage(dbService));
-            //Designates as the initial page of the application.
+            MainPage = new NavigationPage(new LoginPage());
+            //Designates the login page as the first page of the application.
 
         }
     }

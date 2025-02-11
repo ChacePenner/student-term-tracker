@@ -65,6 +65,9 @@ namespace D424Capstone.Models
         [NotNull]
         public int TermId { get; set; }
 
+        [NotNull]
+        public int UserId { get; set; }
+
         public string DateRange => $"{StartDate:MM/dd/yyyy} - {EndDate:MM/dd/yyyy}";
 
     }

@@ -56,6 +56,7 @@ namespace D424Capstone.Services
             await _dbConnection.CreateTableAsync<Course>();
             await _dbConnection.CreateTableAsync<Assessment>();
             await _dbConnection.CreateTableAsync<CourseStatus>();
+            await _dbConnection.CreateTableAsync<Users>();
         }
         public async Task<List<Term>> GetTerms()
         {
@@ -213,6 +214,16 @@ namespace D424Capstone.Services
                 await _dbConnection.InsertAsync(new CourseStatus { Name = "Completed" });
                 await _dbConnection.InsertAsync(new CourseStatus { Name = "Dropped" });
             }
+        }
+
+        public async Task<List<Users>> GetUsers()
+        {
+            return await _dbConnection.Table<Users>().ToListAsync();
+        }
+
+        public async Task<int> Create(Users user)
+        {
+            return await _dbConnection.InsertAsync(user);
         }
     }
 }
