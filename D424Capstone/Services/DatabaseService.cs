@@ -39,10 +39,10 @@ namespace D424Capstone.Services
                 await CreateTablesAsync();
 
                 var existingTerms = await GetTerms();
-                if (!existingTerms.Any())
+                /*if (!existingTerms.Any())
                 {
                     await PreloadEvaluationData();
-                }
+                }*/
             }
             catch (Exception ex)
             {
@@ -154,7 +154,7 @@ namespace D424Capstone.Services
                 }
             return result;
         }
-        private async Task PreloadEvaluationData()
+        /*private async Task PreloadEvaluationData()
         {
             var term = new Term
             {
@@ -197,7 +197,7 @@ namespace D424Capstone.Services
                 CourseId = course.Id
             };
             await Create(performanceAssessment);
-        }
+        }*/
 
         public async Task<List<CourseStatus>> GetCourseStatuses()
         {

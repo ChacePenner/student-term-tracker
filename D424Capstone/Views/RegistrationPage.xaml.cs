@@ -43,7 +43,7 @@ public partial class RegistrationPage : ContentPage
 
 		string hashedPassword = BCrypt.Net.BCrypt.HashPassword(password);
 
-		Users newUser = new Users { Username = username, Password = hashedPassword };
+		Users newUser = new() { Username = username, Password = hashedPassword };
 		await _dbService.Create(newUser);
 
 		await DisplayAlert("Success", "Registration successful. You may now login with your username and password.", "Okay");

@@ -27,7 +27,7 @@ namespace D424Capstone.Pages
         //Initialize the database and ensure everything is loaded in the proper order.
         {
             base.OnAppearing();
-            await _dbService.InitializeDatabase();
+            //await _dbService.InitializeDatabase();
             LoadTerms();
             termsListView.SelectedItem = null;
         }

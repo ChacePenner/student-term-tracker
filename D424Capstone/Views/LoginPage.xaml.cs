@@ -15,6 +15,12 @@ public partial class LoginPage : ContentPage
         _dbService = new DatabaseService();
 	}
 
+    protected override async void OnAppearing()
+    {
+        base.OnAppearing();
+        await _dbService.InitializeDatabase();
+    }
+
     private async void loginButton_Clicked(object sender, EventArgs e)
     {
         string username = usernameEntry.Text?.Trim();
@@ -51,6 +57,7 @@ public partial class LoginPage : ContentPage
 
         await SecureStorage.SetAsync("CurrentUserId", matchingUser.Id.ToString());
         await Navigation.PushModalAsync(new TermViewContentPage(_dbService));
+        await DisplayAlert("Success", "You have successfully logged in.", "Okay");
     }
     private async void registerButton_Clicked(object sender, EventArgs e)
     {

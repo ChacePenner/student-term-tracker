@@ -7,6 +7,7 @@ using SQLite;
 
 namespace D424Capstone.Models
 {
+    [Table("Users")]
     public class Users
     {
         [PrimaryKey, AutoIncrement]
