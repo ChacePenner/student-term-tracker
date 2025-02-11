@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using D424Capstone.Models;
@@ -38,7 +39,7 @@ namespace D424Capstone.Services
                 await _dbConnection.ExecuteAsync("PRAGMA foreign_keys = ON;");
                 await CreateTablesAsync();
 
-                var existingTerms = await GetTerms();
+                //var existingTerms = await GetTermsForUser();
                 /*if (!existingTerms.Any())
                 {
                     await PreloadEvaluationData();
@@ -58,9 +59,12 @@ namespace D424Capstone.Services
             await _dbConnection.CreateTableAsync<CourseStatus>();
             await _dbConnection.CreateTableAsync<Users>();
         }
-        public async Task<List<Term>> GetTerms()
+        public async Task<List<Term>> GetTermsForUser(int userId)
         {
-            return await _dbConnection.Table<Term>().ToListAsync();
+            string query = "SELECT * FROM Term WHERE UserId = ?";
+            var terms = await _dbConnection.QueryAsync<Term>(query, userId);
+
+            return terms;
         }
 
         //Returns all terms

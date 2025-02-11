@@ -43,7 +43,8 @@ namespace D424Capstone.Pages
         {
             try
             {
-                var terms = await _dbService.GetTerms();
+                int userId = int.Parse(await SecureStorage.GetAsync("CurrentUserId"));
+                var terms = await _dbService.GetTermsForUser(userId);
                 _allTerms.Clear();
                 _allTerms.AddRange(terms);
                 _terms.Clear();

@@ -22,25 +22,35 @@ namespace D424Capstone.Services
         {
             var databaseService = new DatabaseService();
 
-            var allTerms = await databaseService.GetTerms();
-            //Debug console
-            Console.WriteLine($"Total Terms Retrieved: {allTerms.Count()}");
-
-            foreach (var term in allTerms)
+            try
             {
-                Terms.Add(term);
-            }
+                int userId = int.Parse(await SecureStorage.GetAsync("CurrentUserId"));
+                var allTerms = await databaseService.GetTermsForUser(userId);
 
-            foreach (var term in Terms)
-            {
-                var courses = await databaseService.GetCoursesForTerm(term.Id);
-                //Debug Console
-                Console.WriteLine($"Courses for Term {term.Name}: {courses.Count()}");
+                List<Term> userTerms = new List<Term>();
 
-                foreach (var course in courses)
+                foreach (var term in allTerms)
                 {
-                    Console.WriteLine($"{course.Name} ({course.DateRange})");
+                    if (term.UserId == userId)
+                    {
+                        userTerms.Add(term);
+                    }
                 }
+
+                foreach (var term in userTerms)
+                {
+                    Terms.Add(term);
+                }
+
+                foreach (var term in userTerms)
+                {
+                    var courses = await databaseService.GetCoursesForTerm(term.Id);
+
+                }
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error generating report: {ex.Message}");
             }
         }
 

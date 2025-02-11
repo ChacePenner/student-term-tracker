@@ -23,7 +23,7 @@ namespace D424Capstone.Pages
         }
 
         private async void saveButton_Clicked(object sender, EventArgs e)
-        {
+        {            
             if (string.IsNullOrWhiteSpace(TermNameEntry.Text))
             {
                 await DisplayAlert("Error", "Please provide a term name.", "Okay");
@@ -36,11 +36,13 @@ namespace D424Capstone.Pages
                 return;
             }
 
+            int userId = int.Parse(await SecureStorage.GetAsync("CurrentUserId"));
             var newTerm = new Term
             {
                 Name = TermNameEntry.Text.Trim(),
                 StartDate = StartDatePicker.Date,
-                EndDate = EndDatePicker.Date
+                EndDate = EndDatePicker.Date,
+                UserId = userId
             };
 
             await _dbService.Create(newTerm);
