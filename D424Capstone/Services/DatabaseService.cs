@@ -48,12 +48,14 @@ namespace D424Capstone.Services
             {
                 Console.WriteLine($"Error in initialization: {ex.Message}");
             }
+            await SetCourseStatuses();
         }
         private async Task CreateTablesAsync()
         {
             await _dbConnection.CreateTableAsync<Term>();
             await _dbConnection.CreateTableAsync<Course>();
             await _dbConnection.CreateTableAsync<Assessment>();
+            await _dbConnection.CreateTableAsync<CourseStatus>();
         }
         public async Task<List<Term>> GetTerms()
         {
@@ -194,6 +196,23 @@ namespace D424Capstone.Services
                 CourseId = course.Id
             };
             await Create(performanceAssessment);
+        }
+
+        public async Task<List<CourseStatus>> GetCourseStatuses()
+        {
+            return await _dbConnection.Table<CourseStatus>().ToListAsync();
+        }
+
+        private async Task SetCourseStatuses()
+        {
+            var statuses = await GetCourseStatuses();
+            if (!statuses.Any())
+            {
+                await _dbConnection.InsertAsync(new CourseStatus { Name = "Not Started" });
+                await _dbConnection.InsertAsync(new CourseStatus { Name = "In Progress" });
+                await _dbConnection.InsertAsync(new CourseStatus { Name = "Completed" });
+                await _dbConnection.InsertAsync(new CourseStatus { Name = "Dropped" });
+            }
         }
     }
 }

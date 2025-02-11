@@ -17,6 +17,11 @@ namespace D424Capstone.Views
             _reloadCourses = reloadCourses;
         }
 
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await LoadCourseStatuses();
+        }
         private async void saveCourseButton_Clicked(object sender, EventArgs e)
         {
             if (string.IsNullOrWhiteSpace(courseNameEntry.Text))
@@ -54,6 +59,7 @@ namespace D424Capstone.Views
                 courseNotes.Text = "No notes provided.";
             }
 
+            var selectedStatus = (CourseStatus)courseStatusPicker.SelectedItem;
             var course = new Course
             {
                 Name = courseNameEntry.Text.Trim(),
@@ -64,7 +70,7 @@ namespace D424Capstone.Views
                 InstructorEmail = instructorEmailEntry.Text.Trim(),
                 Notes = courseNotes.Text.Trim(),
                 TermId = _termId,
-                Status = courseStatusPicker.SelectedItem.ToString(),
+                Status = selectedStatus.Name,
             };
 
             await _dbService.Create(course);
@@ -76,6 +82,23 @@ namespace D424Capstone.Views
         private async void cancelButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
+        }
+
+        private async Task LoadCourseStatuses()
+        {
+            try
+            {
+                var statuses = await _dbService.GetCourseStatuses();
+                courseStatusPicker.ItemsSource = statuses;
+                if (statuses.Count > 0)
+                {
+                    courseStatusPicker.SelectedIndex = 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", $"Unable to load course statuses: {ex.Message}", "Okay");
+            }
         }
     }
 }

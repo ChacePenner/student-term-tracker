@@ -29,6 +29,11 @@ namespace D424Capstone.Views
             courseStatusPicker.SelectedItem = _selectedCourse.Status;
         }
 
+        protected override async void OnAppearing()
+        {
+            base.OnAppearing();
+            await LoadCourseStatuses();
+        }
         private async void saveCourseButton_Clicked(object sender, EventArgs e)
         {
             //Demonstration of task B - Validation
@@ -74,7 +79,8 @@ namespace D424Capstone.Views
             _selectedCourse.InstructorPhone = instructorPhoneEntry.Text.Trim();
             _selectedCourse.InstructorEmail = instructorEmailEntry.Text.Trim();
             _selectedCourse.Notes = courseNotes.Text.Trim();
-            _selectedCourse.Status = courseStatusPicker.SelectedItem.ToString();
+            var selectedStatus = (CourseStatus)courseStatusPicker.SelectedItem;
+            _selectedCourse.Status = selectedStatus.Name;
 
             await _dbService.Update(_selectedCourse);
 
@@ -100,6 +106,23 @@ namespace D424Capstone.Views
         private async void cancelButton_Clicked(object sender, EventArgs e)
         {
             await Navigation.PopModalAsync();
+        }
+
+        private async Task LoadCourseStatuses()
+        {
+            try
+            {
+                var statuses = await _dbService.GetCourseStatuses();
+                courseStatusPicker.ItemsSource = statuses;
+                if (statuses.Count > 0)
+                {
+                    courseStatusPicker.SelectedIndex = 0;
+                }
+            }
+            catch (Exception ex)
+            {
+                await DisplayAlert("Error", $"Unable to load course statuses: {ex.Message}", "Okay");
+            }
         }
     }
 }

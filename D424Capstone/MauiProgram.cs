@@ -33,6 +33,7 @@ namespace D424Capstone
             builder.Services.AddTransient<Term>();
             builder.Services.AddTransient<ViewReport>();
             builder.Services.AddTransient<Assessment>();
+            builder.Services.AddTransient<CourseStatus>();
             builder.Services.AddTransient<AddObjectiveAssessment>();
             builder.Services.AddTransient<AddPerformanceAssessment>();
             builder.Services.AddTransient<EditObjectiveAssessment>();
