@@ -49,21 +49,15 @@ namespace D424Capstone.Views
                 return;
             }
 
-            if (string.IsNullOrWhiteSpace(instructorNameEntry.Text))
-            {
-                await DisplayAlert("Error", "Please provide an instructor name.", "Okay");
-                return;
-            }
-
-            if (string.IsNullOrEmpty(instructorPhoneEntry.Text) || !System.Text.RegularExpressions.Regex.IsMatch(instructorPhoneEntry.Text, @"^[\d-]+$"))
+            if (!string.IsNullOrEmpty(instructorPhoneEntry.Text) && !System.Text.RegularExpressions.Regex.IsMatch(instructorPhoneEntry.Text, @"^[\d-]+$"))
             {
                 await DisplayAlert("Error", "Instructor phone number may only contain numbers and hyphens and cannot be empty.", "Okay");
                 return;
             }
 
-            if (string.IsNullOrEmpty(instructorEmailEntry.Text) || !System.Text.RegularExpressions.Regex.IsMatch(instructorEmailEntry.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            if (!string.IsNullOrEmpty(instructorEmailEntry.Text) && !System.Text.RegularExpressions.Regex.IsMatch(instructorEmailEntry.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
             {
-                await DisplayAlert("Error", "Instructor email must be valid and cannot be empty.", "Okay");
+                await DisplayAlert("Error", "Instructor email must follow proper email format.", "Okay");
                 return;
             }
 
@@ -75,9 +69,9 @@ namespace D424Capstone.Views
             _selectedCourse.Name = courseNameEntry.Text.Trim();
             _selectedCourse.StartDate = courseStartDatePicker.Date.ToLocalTime();
             _selectedCourse.EndDate = courseEndDatePicker.Date.ToLocalTime();
-            _selectedCourse.InstructorName = instructorNameEntry.Text.Trim();
-            _selectedCourse.InstructorPhone = instructorPhoneEntry.Text.Trim();
-            _selectedCourse.InstructorEmail = instructorEmailEntry.Text.Trim();
+            _selectedCourse.InstructorName = (instructorNameEntry.Text ?? "").Trim();
+            _selectedCourse.InstructorPhone = (instructorPhoneEntry.Text ?? "").Trim();
+            _selectedCourse.InstructorEmail = (instructorEmailEntry.Text ?? "").Trim();
             _selectedCourse.Notes = courseNotes.Text.Trim();
             var selectedStatus = (CourseStatus)courseStatusPicker.SelectedItem;
             _selectedCourse.Status = selectedStatus.Name;

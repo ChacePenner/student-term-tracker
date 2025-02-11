@@ -5,6 +5,7 @@
              Title="Register"
              BackgroundColor="Beige">
     <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Register" HorizontalOptions="CenterAndExpand" FontSize="Large" FontAttributes="Bold"></Label>
         <Entry x:Name="usernameEntry" Placeholder="Choose a Username" />
         <Entry x:Name="passwordEntry" Placeholder="Choose a Password" IsPassword="True" />
         <HorizontalStackLayout Spacing="10" Margin="0, 20, 0, 0" HorizontalOptions="Center">

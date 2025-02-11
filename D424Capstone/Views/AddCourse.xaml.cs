@@ -36,21 +36,15 @@ namespace D424Capstone.Views
                 return;
             }
 
-            if (string.IsNullOrWhiteSpace(instructorNameEntry.Text))
-            {
-                await DisplayAlert("Error", "Please provide an instructor name.", "Okay");
-                return;
-            }
-
-            if (string.IsNullOrEmpty(instructorPhoneEntry.Text) || !System.Text.RegularExpressions.Regex.IsMatch(instructorPhoneEntry.Text, @"^[\d-]+$"))
+            if (!string.IsNullOrEmpty(instructorPhoneEntry.Text) && !System.Text.RegularExpressions.Regex.IsMatch(instructorPhoneEntry.Text, @"^[\d-]+$"))
             {
                 await DisplayAlert("Error", "Instructor phone number may only contain numbers and hyphens and cannot be empty.", "Okay");
                 return;
             }
 
-            if (string.IsNullOrEmpty(instructorEmailEntry.Text) || !System.Text.RegularExpressions.Regex.IsMatch(instructorEmailEntry.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
+            if (!string.IsNullOrEmpty(instructorEmailEntry.Text) && !System.Text.RegularExpressions.Regex.IsMatch(instructorEmailEntry.Text, @"^[^@\s]+@[^@\s]+\.[^@\s]+$"))
             {
-                await DisplayAlert("Error", "Instructor email must be valid and cannot be empty.", "Okay");
+                await DisplayAlert("Error", "Instructor email must follow proper email format.", "Okay");
                 return;
             }
 
@@ -65,9 +59,9 @@ namespace D424Capstone.Views
                 Name = courseNameEntry.Text.Trim(),
                 StartDate = courseStartDatePicker.Date,
                 EndDate = courseEndDatePicker.Date,
-                InstructorName = instructorNameEntry.Text.Trim(),
-                InstructorPhone = instructorPhoneEntry.Text.Trim(),
-                InstructorEmail = instructorEmailEntry.Text.Trim(),
+                InstructorName = (instructorNameEntry.Text ?? "").Trim(),
+                InstructorPhone = (instructorPhoneEntry.Text ?? "").Trim(),
+                InstructorEmail = (instructorEmailEntry.Text ?? "").Trim(),
                 Notes = courseNotes.Text.Trim(),
                 TermId = _termId,
                 Status = selectedStatus.Name,

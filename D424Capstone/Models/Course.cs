@@ -36,15 +36,12 @@ namespace D424Capstone.Models
         public Boolean Notification { get; set; }
 
         [Column("instructor_name")]
-        [NotNull]
         public string InstructorName { get; set; }
 
         [Column("instructor_phone")]
-        [NotNull]
         public string InstructorPhone { get; set; }
 
         [Column("instructor_email")]
-        [NotNull]
         public string InstructorEmail { get; set; }
 
         [Column("notes")]

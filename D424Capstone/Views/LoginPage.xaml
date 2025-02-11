@@ -2,8 +2,9 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="D424Capstone.Views.LoginPage"
-             Title="LoginPage">
+             NavigationPage.HasNavigationBar="False">
     <VerticalStackLayout Padding="20" Spacing="15">
+        <Label Text="Login" HorizontalOptions="CenterAndExpand" FontSize="Large" FontAttributes="Bold"></Label>
         <Entry x:Name="usernameEntry" Placeholder="Username"/>
         <Entry x:Name="passwordEntry" Placeholder="Password" IsPassword="True"/>
         <Button Text="Login" Clicked="loginButton_Clicked"/>

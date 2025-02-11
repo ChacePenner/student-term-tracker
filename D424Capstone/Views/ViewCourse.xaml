@@ -24,13 +24,13 @@
                 <Label Text="{Binding SelectedCourse.EndDate, StringFormat='{0:MM/dd/yyyy}'}" Grid.Row="2" Grid.Column="1"/>
 
                 <Label Text="Instructor Name:" FontAttributes="Bold" Grid.Row="3" Grid.Column="0"/>
-                <Label Text="{Binding SelectedCourse.InstructorName}" Grid.Row="3" Grid.Column="1"/>
+                <Label Text="{Binding SelectedCourse.InstructorName, TargetNullValue=''}" Grid.Row="3" Grid.Column="1"/>
 
                 <Label Text="Instructor Phone:" FontAttributes="Bold" Grid.Row="4" Grid.Column="0"/>
-                <Label Text="{Binding SelectedCourse.InstructorPhone}" Grid.Row="4" Grid.Column="1"/>
+                <Label Text="{Binding SelectedCourse.InstructorPhone, TargetNullValue=''}" Grid.Row="4" Grid.Column="1"/>
 
                 <Label Text="Instructor Email:" FontAttributes="Bold" Grid.Row="5" Grid.Column="0"/>
-                <Label Text="{Binding SelectedCourse.InstructorEmail}" Grid.Row="5" Grid.Column="1"/>
+                <Label Text="{Binding SelectedCourse.InstructorEmail, TargetNullValue=''}" Grid.Row="5" Grid.Column="1"/>
 
                 <Label Text="Notes:" FontAttributes="Bold" Grid.Row="6" Grid.Column="0"/>
                 <Label Grid.ColumnSpan="2" BackgroundColor="LightGray" Text="{Binding SelectedCourse.Notes}" Grid.Row="7" Grid.Column="0"/>
