@@ -1,11 +1,11 @@
 using System.Collections.ObjectModel;
 using System.Globalization;
 using System.Security.Cryptography.X509Certificates;
-using Android.App;
+//using Android.App;
 using D424Capstone.Models;
 using D424Capstone.Services;
 using D424Capstone.Views;
-using Javax.Security.Auth;
+//using Javax.Security.Auth;
 using Microsoft.Maui.Layouts;
 using Plugin.LocalNotification;
 using SQLite;

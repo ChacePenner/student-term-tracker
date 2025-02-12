@@ -17,6 +17,8 @@ namespace D424CapstoneUnitTest
         public TestingRegistration(DatabaseService dbService) : base()
         {
             _dbService = dbService;
+
+
         }
 
         protected override Task ShowAlert(string title, string message, string cancel)

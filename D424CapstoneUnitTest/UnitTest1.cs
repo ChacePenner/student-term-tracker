@@ -4,6 +4,10 @@ namespace D424CapstoneUnitTest
 {
     public class UnitTest1
     {
+        public UnitTest1()
+        {
+            DependencyService.Register<DummyFontNamedSizeService>();
+        }
         [Fact]
         public async Task Test1()
             //Test to ensure that the "duplicate username" error message appears when a user attempts
