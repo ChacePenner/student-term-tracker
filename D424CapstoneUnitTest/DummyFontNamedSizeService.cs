@@ -10,6 +10,8 @@ using Microsoft.Maui.Controls.Xaml;
 namespace D424CapstoneUnitTest
 {
     public class DummyFontNamedSizeService : IFontNamedSizeService
+        //Because .net maui uses IFontNamedSizeService but the testing environment cannot, this class is
+        //necessary to allow inserting username and password values into their respective entries
     {
         public double GetNamedSize(NamedSize size, Type targetElementType)
         {
@@ -25,10 +27,10 @@ namespace D424CapstoneUnitTest
             };
         }
 
-        // Implement the second overload to avoid throwing NotImplementedException.
+       
         public double GetNamedSize(NamedSize size, Type targetElementType, bool useOldSizes)
         {
-            // Optionally use the useOldSizes parameter if needed, or ignore it.
+            
             return GetNamedSize(size, targetElementType);
         }
     }
