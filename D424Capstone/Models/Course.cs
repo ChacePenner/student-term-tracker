@@ -66,6 +66,5 @@ namespace D424Capstone.Models
         public int UserId { get; set; }
 
         public string DateRange => $"{StartDate:MM/dd/yyyy} - {EndDate:MM/dd/yyyy}";
-
     }
 }

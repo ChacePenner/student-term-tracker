@@ -1,0 +1,18 @@
+{
+  "version": 2,
+  "dgSpecHash": "lhDo8uazxBo=",
+  "success": false,
+  "projectFilePath": "C:\\D424Capstone\\UnitTests\\UnitTests.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1201",
+      "level": "Error",
+      "message": "Project D424Capstone is not compatible with net8.0 (.NETCoreApp,Version=v8.0). Project D424Capstone supports:\r\n  - net8.0-android34.0 (.NETCoreApp,Version=v8.0)\r\n  - net8.0-ios18.0 (.NETCoreApp,Version=v8.0)\r\n  - net8.0-maccatalyst18.0 (.NETCoreApp,Version=v8.0)\r\n  - net8.0-windows10.0.19041 (.NETCoreApp,Version=v8.0)",
+      "libraryId": "D424Capstone",
+      "targetGraphs": [
+        "net8.0"
+      ]
+    }
+  ]
+}
