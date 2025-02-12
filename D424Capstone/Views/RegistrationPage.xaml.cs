@@ -6,21 +6,21 @@ namespace D424Capstone.Views;
 
 public partial class RegistrationPage : ContentPage
 {
-	private readonly DatabaseService _dbService;
+	protected DatabaseService _dbService;
 	public RegistrationPage()
 	{
 		InitializeComponent();
 		_dbService = new DatabaseService();
 	}
 
-	private async void RegisterButton_Clicked(object sender, EventArgs e)
+	public async void RegisterButton_Clicked(object sender, EventArgs e)
 	{
 		string username = usernameEntry.Text?.Trim();
 		string password = passwordEntry.Text;
 
 		if (string.IsNullOrWhiteSpace(username) || string.IsNullOrWhiteSpace(password))
 		{
-			await DisplayAlert("Error", "Please enter a username and password.", "Okay");
+			await ShowAlert("Error", "Please enter a username and password.", "Okay");
 			return;
 		}
 
@@ -37,7 +37,7 @@ public partial class RegistrationPage : ContentPage
 
 		if (userExists)
 		{
-			await DisplayAlert("Error", "Username already exists.", "Okay");
+			await ShowAlert("Error", "Username already exists.", "Okay");
 			return;
 		}
 
@@ -46,11 +46,17 @@ public partial class RegistrationPage : ContentPage
 		Users newUser = new() { Username = username, Password = hashedPassword };
 		await _dbService.Create(newUser);
 
-		await DisplayAlert("Success", "Registration successful. You may now login with your username and password.", "Okay");
+		await ShowAlert("Success", "Registration successful. You may now login with your username and password.", "Okay");
 		await Navigation.PopModalAsync();
 	}
     private async void cancelButton_Clicked(object sender, EventArgs e)
     {
 		await Navigation.PopModalAsync();
     }
+
+	protected virtual Task ShowAlert(string title, string message, string cancel)
+	{
+		return DisplayAlert(title, message, cancel);
+	}
+
 }

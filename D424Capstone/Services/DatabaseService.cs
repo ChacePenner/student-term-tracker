@@ -220,12 +220,12 @@ namespace D424Capstone.Services
             }
         }
 
-        public async Task<List<Users>> GetUsers()
+        public virtual async Task<List<Users>> GetUsers()
         {
             return await _dbConnection.Table<Users>().ToListAsync();
         }
 
-        public async Task<int> Create(Users user)
+        public virtual async Task<int> Create(Users user)
         {
             return await _dbConnection.InsertAsync(user);
         }
