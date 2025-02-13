@@ -1,178 +1,31 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ClassDiagram MajorVersion="1" MinorVersion="1">
-  <Class Name="D424Capstone.Models.Assessment" Collapsed="true">
-    <Position X="14" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAGAAAAAAAAAACAAAAAAAwgAAAAQAAAAQAAAEAAAAA=</HashCode>
-      <FileName>Models\Assessment.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Models.Course" Collapsed="true">
-    <Position X="15.75" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAiAAAEAAAAAADAAAAACAwiAAAAQAAAAAAAAFAAAAA=</HashCode>
-      <FileName>Models\Course.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Models.CourseStatus" Collapsed="true">
-    <Position X="17.5" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Models\CourseStatus.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Models.Term" Collapsed="true">
-    <Position X="17.5" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAACAAAAAAAwgAAAAAAAAAAAAAEAAAAA=</HashCode>
-      <FileName>Models\Term.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Models.Users" Collapsed="true">
-    <Position X="14" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAACAAAAAAAAAAAAAQAAAAAAAAAAAAACAAAAAAAAAAA=</HashCode>
-      <FileName>Models\Users.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Services.DatabaseService" Collapsed="true">
-    <Position X="19.25" Y="1.75" Width="1.5" />
+  <Class Name="D424Capstone.Services.DatabaseService">
+    <Position X="8.5" Y="1.25" Width="2.25" />
     <TypeIdentifier>
       <HashCode>IASgAAAAASAAAAAAABgAAACAgAEAAEAAAAAAAAAAgAA=</HashCode>
       <FileName>Services\DatabaseService.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="D424Capstone.Services.Report" Collapsed="true">
-    <Position X="11.5" Y="0.75" Width="1.5" />
+    <Position X="6.75" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
       <FileName>Services\Report.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="D424Capstone.Services.Settings" Collapsed="true">
-    <Position X="15.75" Y="3.75" Width="1.5" />
+    <Position X="11" Y="1.25" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
       <FileName>Services\Settings.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Class Name="D424Capstone.Services.TermReport" Collapsed="true">
-    <Position X="11.5" Y="2" Width="1.5" />
+    <Position X="6.75" Y="2.5" Width="1.5" />
     <TypeIdentifier>
       <HashCode>AAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
       <FileName>Services\TermReport.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.AddCourse" Collapsed="true">
-    <Position X="14" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgAAQAAAAAAACAAAAAAAAAIEAAQAAAABAA=</HashCode>
-      <FileName>Views\AddCourse.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.AddObjectiveAssessment" Collapsed="true">
-    <Position X="15.75" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAACAAAAAAAAAAAAAAACAAAAAAAAAIEAAAAAAgAAA=</HashCode>
-      <FileName>Views\AddObjectiveAssessment.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.AddPerformanceAssessment" Collapsed="true">
-    <Position X="17.5" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAACAAAAAAAAAAAAAAACAAAAAAAAAIEAAAAAAgAAA=</HashCode>
-      <FileName>Views\AddPerformanceAssessment.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.EditCourse" Collapsed="true">
-    <Position X="21" Y="1.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>ACAAACAAAAgAAAAAAAAAACAAAAAAAAAIEAAQAAAABAA=</HashCode>
-      <FileName>Views\EditCourse.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.EditObjectiveAssessment" Collapsed="true">
-    <Position X="14" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAABAAAAAAAAAAAAAAAAACAAAAAAAAAIEAAAAAAgAAA=</HashCode>
-      <FileName>Views\EditObjectiveAssessment.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.EditPerformanceAssessment" Collapsed="true">
-    <Position X="15.75" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>ACAAAAAAAAAAAAAAAAAAACAAAAAAAAAIEAAAAAAgAAA=</HashCode>
-      <FileName>Views\EditPerformanceAssessment.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.EditTerm" Collapsed="true">
-    <Position X="17.5" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAQAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAgAAA=</HashCode>
-      <FileName>Views\EditTerm.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.LoginPage" Collapsed="true">
-    <Position X="19.25" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAIAAAAAGAAAgA=</HashCode>
-      <FileName>Views\LoginPage.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.RegistrationPage" Collapsed="true">
-    <Position X="14" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAIAAACAAAAAAAAAIAAAAAEAAAAA=</HashCode>
-      <FileName>Views\RegistrationPage.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.TermDetail" Collapsed="true">
-    <Position X="19.25" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAQAAAAQAAEAAACAAAAEAAAAAAAAAAAIAAAAIBAAAAA=</HashCode>
-      <FileName>Views\TermDetail.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.ViewCourse" Collapsed="true">
-    <Position X="15.75" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>WCQAAAgAAAsAABbAAABAAAAAAEEAAAAMEgAwACAAAAA=</HashCode>
-      <FileName>Views\ViewCourse.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Views.ViewReport" Collapsed="true">
-    <Position X="17.5" Y="4.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAQAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>Views\ViewReport.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Pages.AddTermContentPage" Collapsed="true">
-    <Position X="19.25" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AQAAAAAQAAAAAAAAAAAAACAAAAAAAAAIAAAAAAAgAAA=</HashCode>
-      <FileName>Views\AddTermContentPage.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.Pages.TermViewContentPage" Collapsed="true">
-    <Position X="21" Y="3.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAEEAQAAgAAAAQAQEAAACAAAAIACAIIAABQAAAAAA=</HashCode>
-      <FileName>Views\TermViewContentPage.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.App" Collapsed="true">
-    <Position X="21" Y="0.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>App.xaml.cs</FileName>
-    </TypeIdentifier>
-  </Class>
-  <Class Name="D424Capstone.MauiProgram" Collapsed="true">
-    <Position X="21" Y="2.75" Width="1.5" />
-    <TypeIdentifier>
-      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
-      <FileName>MauiProgram.cs</FileName>
     </TypeIdentifier>
   </Class>
   <Font Name="Segoe UI" Size="9" />
