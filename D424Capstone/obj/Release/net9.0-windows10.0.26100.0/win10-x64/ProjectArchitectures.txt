@@ -1,0 +1,1 @@
+C:\D424Capstone\D424Capstone\D424Capstone.csproj;x64

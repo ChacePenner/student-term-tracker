@@ -1,0 +1,7 @@
+C:\D424Capstone\D424CapstoneUnitTest\bin\Release\net8.0\CoverletSourceRootsMapping_D424CapstoneUnitTest
+C:\D424Capstone\D424CapstoneUnitTest\obj\Release\net8.0\D424CapstoneUnitTest.csproj.AssemblyReference.cache
+C:\D424Capstone\D424CapstoneUnitTest\obj\Release\net8.0\D424CapstoneUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\D424Capstone\D424CapstoneUnitTest\obj\Release\net8.0\D424CapstoneUnitTest.AssemblyInfoInputs.cache
+C:\D424Capstone\D424CapstoneUnitTest\obj\Release\net8.0\D424CapstoneUnitTest.AssemblyInfo.cs
+C:\D424Capstone\D424CapstoneUnitTest\obj\Release\net8.0\D424CapstoneUnitTest.csproj.CoreCompileInputs.cache
+C:\D424Capstone\D424CapstoneUnitTest\obj\Release\net8.0\D424CapstoneUnitTest.sourcelink.json

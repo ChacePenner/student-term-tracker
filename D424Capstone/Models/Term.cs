@@ -31,4 +31,5 @@ namespace D424Capstone.Models
 
         public string DateRange => $"{StartDate:MM/dd/yyyy} - {EndDate:MM/dd/yyyy}";
     }
+
 }

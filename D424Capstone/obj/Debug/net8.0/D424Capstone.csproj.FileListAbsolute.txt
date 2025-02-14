@@ -1,0 +1,14 @@
+C:\D424Capstone\D424Capstone\bin\Debug\net8.0\D424Capstone.deps.json
+C:\D424Capstone\D424Capstone\bin\Debug\net8.0\D424Capstone.dll
+C:\D424Capstone\D424Capstone\bin\Debug\net8.0\D424Capstone.pdb
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.csproj.AssemblyReference.cache
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.GeneratedMSBuildEditorConfig.editorconfig
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.AssemblyInfoInputs.cache
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.AssemblyInfo.cs
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.csproj.CoreCompileInputs.cache
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.sourcelink.json
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\XamlC.stamp
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.dll
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\refint\D424Capstone.dll
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\D424Capstone.pdb
+C:\D424Capstone\D424Capstone\obj\Debug\net8.0\ref\D424Capstone.dll

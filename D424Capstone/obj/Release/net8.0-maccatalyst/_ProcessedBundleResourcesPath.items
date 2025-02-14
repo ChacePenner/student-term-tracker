@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot.png" />
+    <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@2x.png" />
+    <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
+    <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\notification.png" />
+    <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\share.png" />
+  </ItemGroup>
+</Project>

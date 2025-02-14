@@ -1,0 +1,32 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="D424Capstone.Services.DatabaseService">
+    <Position X="8.5" Y="1.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>IASgAAAAASAAAAAAABgAAACAgAEAAEAAAAAAAAAAgAA=</HashCode>
+      <FileName>Services\DatabaseService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D424Capstone.Services.Report" Collapsed="true">
+    <Position X="6.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAEAAAAAAAAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Services\Report.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D424Capstone.Services.Settings" Collapsed="true">
+    <Position X="11" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Services\Settings.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="D424Capstone.Services.TermReport" Collapsed="true">
+    <Position X="6.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAKAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgA=</HashCode>
+      <FileName>Services\TermReport.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
