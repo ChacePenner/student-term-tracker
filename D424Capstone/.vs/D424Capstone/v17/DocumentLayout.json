@@ -3,113 +3,32 @@
   "WorkspaceRootPath": "C:\\D424Capstone\\D424Capstone\\",
   "Documents": [
     {
-<<<<<<< HEAD
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\d424capstone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:d424capstone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-=======
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\viewreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\viewreport.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\services\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:services\\report.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\services\\termreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:services\\termreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\termviewcontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\termviewcontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:services\\databaseservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\models\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:models\\assessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\models\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:models\\term.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:models\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:models\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:classdiagram.cd||{59B0B277-7DDF-4E36-A3ED-02DAC5B9E2FA}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Chace\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\d424capstone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:d424capstone.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\services\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:services\\settings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\D424Capstone\\D424Capstone\\obj\\Release\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:obj\\Release\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\d424capstone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:d424capstone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:platforms\\android\\androidmanifest.xml||{4E01A4BC-CFCF-452C-8C08-51352512D197}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\Chace\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\addobjectiveassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\addobjectiveassessment.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\registrationpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\d424capstone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:d424capstone.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
-    },
-    {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\loginpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\registrationpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
     },
     {
       "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\viewcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\viewcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-<<<<<<< HEAD
       "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:platforms\\android\\mainactivity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -130,62 +49,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\termviewcontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\termviewcontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-=======
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\addcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\addcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:models\\coursestatus.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\addperformanceassessment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\addperformanceassessment.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\editcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\editcourse.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\editterm.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\editterm.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\termviewcontentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\termviewcontentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\editcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\editcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\addcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\addcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\viewcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\viewcourse.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\addtermcontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\addtermcontentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\viewreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|solutionrelative:views\\viewreport.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
     },
     {
       "AbsoluteMoniker": "D:0:0:{0270C868-920A-4126-845F-C12F191033C3}|D424Capstone.csproj|c:\\d424capstone\\d424capstone\\views\\termdetail.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -250,20 +113,40 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-<<<<<<< HEAD
-          "SelectedChildIndex": 24,
-=======
-          "SelectedChildIndex": 19,
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-<<<<<<< HEAD
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Microsoft.Maui.Controls.targets",
+              "DocumentMoniker": "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "RelativeDocumentMoniker": "..\\..\\Users\\Chace\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "ToolTip": "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "RelativeToolTip": "..\\..\\Users\\Chace\\.nuget\\packages\\microsoft.maui.controls.build.tasks\\8.0.100\\buildTransitive\\netstandard2.0\\Microsoft.Maui.Controls.targets",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2025-02-14T02:03:28.916Z",
+              "EditorCaption": ""
+            },
+            {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "__Microsoft.Android.Resource.Designer.cs",
+              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\obj\\Release\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "RelativeDocumentMoniker": "obj\\Release\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "ToolTip": "C:\\D424Capstone\\D424Capstone\\obj\\Release\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "RelativeToolTip": "obj\\Release\\net8.0-android\\__Microsoft.Android.Resource.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-14T01:40:25.367Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Microsoft.PackageDependencyResolution.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.PackageDependencyResolution.targets",
@@ -275,7 +158,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 9,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -287,7 +170,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 10,
               "Title": "Microsoft.NET.TargetFrameworkInference.targets",
               "DocumentMoniker": "C:\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
               "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\sdk\\9.0.200\\Sdks\\Microsoft.NET.Sdk\\targets\\Microsoft.NET.TargetFrameworkInference.targets",
@@ -299,324 +182,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-=======
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{e1b7d1f8-9b3c-49b1-8f4f-bfc63a88835d}"
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 11,
-              "Title": "Xamarin.Android.Resource.Designer.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Resource.Designer.targets",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAACAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-02-13T03:57:53.901Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "Xamarin.Android.Common.targets",
-              "DocumentMoniker": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "RelativeDocumentMoniker": "..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "ToolTip": "C:\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "RelativeToolTip": "..\\..\\Program Files\\dotnet\\packs\\Microsoft.Android.Sdk.Windows\\34.0.147\\tools\\Xamarin.Android.Common.targets",
-              "ViewState": "AgIAAA8KAAAAAAAAAAAqwB0KAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-02-12T22:58:50.806Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "AndroidManifest.xml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeDocumentMoniker": "Platforms\\Android\\AndroidManifest.xml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Platforms\\Android\\AndroidManifest.xml",
-              "RelativeToolTip": "Platforms\\Android\\AndroidManifest.xml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
-              "WhenOpened": "2025-02-12T21:28:33.404Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Microsoft.Maui.Core.After.targets",
-              "DocumentMoniker": "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "RelativeDocumentMoniker": "..\\..\\Users\\Chace\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "ToolTip": "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "RelativeToolTip": "..\\..\\Users\\Chace\\.nuget\\packages\\microsoft.maui.core\\9.0.40\\buildTransitive\\Microsoft.Maui.Core.After.targets",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAgwB0AAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-02-12T21:06:06.47Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "AddObjectiveAssessment.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddObjectiveAssessment.xaml",
-              "RelativeDocumentMoniker": "Views\\AddObjectiveAssessment.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\AddObjectiveAssessment.xaml",
-              "RelativeToolTip": "Views\\AddObjectiveAssessment.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-12T20:54:15.31Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "launchSettings.json",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Properties\\launchSettings.json",
-              "RelativeDocumentMoniker": "Properties\\launchSettings.json",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Properties\\launchSettings.json",
-              "RelativeToolTip": "Properties\\launchSettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-02-12T18:56:56.316Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "ClassDiagram.cd",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\ClassDiagram.cd",
-              "RelativeDocumentMoniker": "ClassDiagram.cd",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\ClassDiagram.cd",
-              "RelativeToolTip": "ClassDiagram.cd",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000463|",
-              "WhenOpened": "2025-02-12T18:42:50.979Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "D424Capstone.csproj",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
-              "RelativeDocumentMoniker": "D424Capstone.csproj",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
-              "RelativeToolTip": "D424Capstone.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-12T00:42:37.624Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "D424Capstone",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
-              "RelativeDocumentMoniker": "D424Capstone.csproj",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
-              "RelativeToolTip": "D424Capstone.csproj",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-02-12T00:21:01.873Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "AddPerformanceAssessment.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddPerformanceAssessment.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AddPerformanceAssessment.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\AddPerformanceAssessment.xaml.cs",
-              "RelativeToolTip": "Views\\AddPerformanceAssessment.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T23:03:13.486Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 35,
-              "Title": "AddTermContentPage.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddTermContentPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\AddTermContentPage.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\AddTermContentPage.xaml.cs",
-              "RelativeToolTip": "Views\\AddTermContentPage.xaml.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwDUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T03:20:02.769Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "ViewCourse.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\ViewCourse.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\ViewCourse.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\ViewCourse.xaml.cs",
-              "RelativeToolTip": "Views\\ViewCourse.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T02:48:54.753Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "App.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\App.xaml.cs",
-              "RelativeDocumentMoniker": "App.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\App.xaml.cs",
-              "RelativeToolTip": "App.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T02:26:01.997Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "RegistrationPage.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\RegistrationPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\RegistrationPage.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\RegistrationPage.xaml.cs",
-              "RelativeToolTip": "Views\\RegistrationPage.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T02:05:42.151Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
-              "Title": "RegistrationPage.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\RegistrationPage.xaml",
-              "RelativeDocumentMoniker": "Views\\RegistrationPage.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\RegistrationPage.xaml",
-              "RelativeToolTip": "Views\\RegistrationPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T02:05:33.495Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LoginPage.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\LoginPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\LoginPage.xaml.cs",
-              "RelativeToolTip": "Views\\LoginPage.xaml.cs",
-              "ViewState": "AgIAACwAAAAAAAAAAAAIwDoAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:45:21.48Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "LoginPage.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\LoginPage.xaml",
-              "RelativeDocumentMoniker": "Views\\LoginPage.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\LoginPage.xaml",
-              "RelativeToolTip": "Views\\LoginPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T01:45:02.937Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Users.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Models\\Users.cs",
-              "RelativeDocumentMoniker": "Models\\Users.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Models\\Users.cs",
-              "RelativeToolTip": "Models\\Users.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T01:40:38.464Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 34,
-              "Title": "ViewCourse.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\ViewCourse.xaml",
-              "RelativeDocumentMoniker": "Views\\ViewCourse.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\ViewCourse.xaml",
-              "RelativeToolTip": "Views\\ViewCourse.xaml",
-              "ViewState": "AgIAAAMAAAAAAAAAAIBZwBUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T00:41:18.975Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 36,
-              "Title": "App.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\App.xaml",
-              "RelativeDocumentMoniker": "App.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\App.xaml",
-              "RelativeToolTip": "App.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T00:15:25.023Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "CourseStatus.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Models\\CourseStatus.cs",
-              "RelativeDocumentMoniker": "Models\\CourseStatus.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Models\\CourseStatus.cs",
-              "RelativeToolTip": "Models\\CourseStatus.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-11T00:13:55.038Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "AddCourse.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddCourse.xaml",
-              "RelativeDocumentMoniker": "Views\\AddCourse.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\AddCourse.xaml",
-              "RelativeToolTip": "Views\\AddCourse.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwBYAAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-11T00:08:49.271Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Settings.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Services\\Settings.cs",
-              "RelativeDocumentMoniker": "Services\\Settings.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Services\\Settings.cs",
-              "RelativeToolTip": "Services\\Settings.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T23:23:35.064Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
               "Title": "ViewReport.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\ViewReport.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ViewReport.xaml.cs",
               "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\ViewReport.xaml.cs",
               "RelativeToolTip": "Views\\ViewReport.xaml.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAAAUAAAAAAAAAAADgvw8AAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:36:15.613Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 12,
               "Title": "TermViewContentPage.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\TermViewContentPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\TermViewContentPage.xaml.cs",
@@ -628,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 13,
               "Title": "TermDetail.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\TermDetail.xaml.cs",
               "RelativeDocumentMoniker": "Views\\TermDetail.xaml.cs",
@@ -640,7 +218,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 14,
               "Title": "RegistrationPage.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\RegistrationPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\RegistrationPage.xaml.cs",
@@ -652,150 +230,31 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "LoginPage.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\LoginPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\LoginPage.xaml.cs",
               "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\LoginPage.xaml.cs",
               "RelativeToolTip": "Views\\LoginPage.xaml.cs",
               "ViewState": "AgIAADUAAAAAAAAAAAAwwEEAAAABAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAAgAAAAAAAAAAAAxwBIAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T21:26:15.357Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 37,
-              "Title": "ViewReport.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\ViewReport.xaml",
-              "RelativeDocumentMoniker": "Views\\ViewReport.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\ViewReport.xaml",
-              "RelativeToolTip": "Views\\ViewReport.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T21:25:48.914Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 38,
-              "Title": "TermDetail.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\TermDetail.xaml",
-              "RelativeDocumentMoniker": "Views\\TermDetail.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\TermDetail.xaml",
-              "RelativeToolTip": "Views\\TermDetail.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T21:12:16.547Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "EditCourse.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\EditCourse.xaml",
-              "RelativeDocumentMoniker": "Views\\EditCourse.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\EditCourse.xaml",
-              "RelativeToolTip": "Views\\EditCourse.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAIBZwA0AAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T21:07:18.124Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "TermReport.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Services\\TermReport.cs",
-              "RelativeDocumentMoniker": "Services\\TermReport.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Services\\TermReport.cs",
-              "RelativeToolTip": "Services\\TermReport.cs",
-              "ViewState": "AgIAAEAAAAAAAAAAAAAcwE0AAAARAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T20:50:24.593Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Report.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Services\\Report.cs",
-              "RelativeDocumentMoniker": "Services\\Report.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Services\\Report.cs",
-              "RelativeToolTip": "Services\\Report.cs",
-              "ViewState": "AgIAAAEAAAAAAAAAAAAQwAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T20:48:55.634Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "DatabaseService.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Services\\DatabaseService.cs",
-              "RelativeDocumentMoniker": "Services\\DatabaseService.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Services\\DatabaseService.cs",
-              "RelativeToolTip": "Services\\DatabaseService.cs",
-              "ViewState": "AgIAAOIAAAAAAAAAAAAnwOoAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T20:17:54.194Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 25,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "MauiProgram.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\MauiProgram.cs",
-              "RelativeToolTip": "MauiProgram.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACgAAAAzAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T20:17:36.782Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "TermViewContentPage.xaml",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\TermViewContentPage.xaml",
-              "RelativeDocumentMoniker": "Views\\TermViewContentPage.xaml",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\TermViewContentPage.xaml",
-              "RelativeToolTip": "Views\\TermViewContentPage.xaml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2025-02-06T20:11:14.183Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 29,
-              "Title": "EditCourse.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\EditCourse.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\EditCourse.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\EditCourse.xaml.cs",
-              "RelativeToolTip": "Views\\EditCourse.xaml.cs",
-              "ViewState": "AgIAADsAAAAAAAAAAAAwwFEAAAA0AAAAAAAAAA==",
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:35:54.159Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 15,
               "Title": "EditTerm.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\EditTerm.xaml.cs",
               "RelativeDocumentMoniker": "Views\\EditTerm.xaml.cs",
               "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\EditTerm.xaml.cs",
               "RelativeToolTip": "Views\\EditTerm.xaml.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAADIAAAAAAAAAAAAUwD8AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:35:51.958Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 16,
               "Title": "EditPerformanceAssessment.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\EditPerformanceAssessment.xaml.cs",
               "RelativeDocumentMoniker": "Views\\EditPerformanceAssessment.xaml.cs",
@@ -807,7 +266,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 17,
               "Title": "EditObjectiveAssessment.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\EditObjectiveAssessment.xaml.cs",
               "RelativeDocumentMoniker": "Views\\EditObjectiveAssessment.xaml.cs",
@@ -819,7 +278,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 18,
               "Title": "EditCourse.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\EditCourse.xaml.cs",
               "RelativeDocumentMoniker": "Views\\EditCourse.xaml.cs",
@@ -831,7 +290,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 19,
               "Title": "AddTermContentPage.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddTermContentPage.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AddTermContentPage.xaml.cs",
@@ -843,7 +302,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 20,
               "Title": "AddPerformanceAssessment.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddPerformanceAssessment.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AddPerformanceAssessment.xaml.cs",
@@ -855,7 +314,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 21,
               "Title": "AddObjectiveAssessment.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddObjectiveAssessment.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AddObjectiveAssessment.xaml.cs",
@@ -867,85 +326,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-=======
-              "ViewState": "AgIAABsAAAAAAAAAAAAowDUAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T19:23:51.455Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "TermViewContentPage.xaml.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\TermViewContentPage.xaml.cs",
-              "RelativeDocumentMoniker": "Views\\TermViewContentPage.xaml.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\TermViewContentPage.xaml.cs",
-              "RelativeToolTip": "Views\\TermViewContentPage.xaml.cs",
-              "ViewState": "AgIAAH0AAAAAAAAAAAAUwIUAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T19:23:24.191Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Term.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Models\\Term.cs",
-              "RelativeDocumentMoniker": "Models\\Term.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Models\\Term.cs",
-              "RelativeToolTip": "Models\\Term.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAwwCIAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T19:22:33.668Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Course.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Models\\Course.cs",
-              "RelativeDocumentMoniker": "Models\\Course.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Models\\Course.cs",
-              "RelativeToolTip": "Models\\Course.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAEUAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T19:22:27.285Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "Assessment.cs",
-              "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Models\\Assessment.cs",
-              "RelativeDocumentMoniker": "Models\\Assessment.cs",
-              "ToolTip": "C:\\D424Capstone\\D424Capstone\\Models\\Assessment.cs",
-              "RelativeToolTip": "Models\\Assessment.cs",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAmwDQAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-06T19:21:48.271Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
+              "DocumentIndex": 22,
               "Title": "AddCourse.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\AddCourse.xaml.cs",
               "RelativeDocumentMoniker": "Views\\AddCourse.xaml.cs",
               "ToolTip": "C:\\D424Capstone\\D424Capstone\\Views\\AddCourse.xaml.cs",
               "RelativeToolTip": "Views\\AddCourse.xaml.cs",
-<<<<<<< HEAD
               "ViewState": "AgIAAD0AAAAAAAAAAAAcwEsAAAAaAAAAAAAAAA==",
-=======
-              "ViewState": "AgIAAC0AAAAAAAAAAAApwEUAAAArAAAAAAAAAA==",
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-02-13T23:35:27.754Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "MainApplication.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Platforms\\Android\\MainApplication.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\MainApplication.cs",
@@ -957,7 +350,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "MainActivity.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Platforms\\Android\\MainActivity.cs",
               "RelativeDocumentMoniker": "Platforms\\Android\\MainActivity.cs",
@@ -969,7 +362,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 23,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Platforms\\Windows\\App.xaml.cs",
               "RelativeDocumentMoniker": "Platforms\\Windows\\App.xaml.cs",
@@ -981,7 +374,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 24,
               "Title": "App.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\App.xaml.cs",
               "RelativeDocumentMoniker": "App.xaml.cs",
@@ -993,7 +386,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ViewCourse.xaml.cs",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\ViewCourse.xaml.cs",
               "RelativeDocumentMoniker": "Views\\ViewCourse.xaml.cs",
@@ -1005,7 +398,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 25,
               "Title": "TermViewContentPage.xaml",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\Views\\TermViewContentPage.xaml",
               "RelativeDocumentMoniker": "Views\\TermViewContentPage.xaml",
@@ -1017,7 +410,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 26,
               "Title": "Microsoft.Maui.Resizetizer.After.targets",
               "DocumentMoniker": "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
               "RelativeDocumentMoniker": "..\\..\\Users\\Chace\\.nuget\\packages\\microsoft.maui.resizetizer\\8.0.100\\buildTransitive\\Microsoft.Maui.Resizetizer.After.targets",
@@ -1029,20 +422,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "D424Capstone.csproj",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
               "RelativeDocumentMoniker": "D424Capstone.csproj",
               "ToolTip": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
               "RelativeToolTip": "D424Capstone.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABLAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-13T22:02:10.659Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "D424Capstone",
               "DocumentMoniker": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
               "RelativeDocumentMoniker": "D424Capstone.csproj",
@@ -1051,10 +444,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-02-13T22:01:42.106Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
               "$type": "Bookmark",

@@ -1,8 +1,4 @@
-<<<<<<< HEAD
 <resources xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto"><!-- 
-=======
-<resources xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><!-- 
->>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
     The collectionViewScrollBars style will be used as the default style for ItemsViewRenderer (the base renderer
     for CollectionView and CarouselView. We have to use a style to set up the scrollbars because there is currently
     no way to add them via code.
