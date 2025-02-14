@@ -1,4 +1,10 @@
 C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\CoverletSourceRootsMapping_D424CapstoneUnitTest
+C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.csproj.AssemblyReference.cache
+C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.AssemblyInfoInputs.cache
+C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.AssemblyInfo.cs
+C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.csproj.CoreCompileInputs.cache
+C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.sourcelink.json
 C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\testhost.dll
 C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\testhost.exe
 C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
@@ -165,12 +171,6 @@ C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\runtimes\win-x64\native\e_
 C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
 C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\D424Capstone.dll
 C:\D424Capstone\D424CapstoneUnitTest\bin\Debug\net8.0\D424Capstone.pdb
-C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.csproj.AssemblyReference.cache
-C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.GeneratedMSBuildEditorConfig.editorconfig
-C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.AssemblyInfoInputs.cache
-C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.AssemblyInfo.cs
-C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.csproj.CoreCompileInputs.cache
-C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.sourcelink.json
 C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424Caps.DF85E183.Up2Date
 C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\D424CapstoneUnitTest.dll
 C:\D424Capstone\D424CapstoneUnitTest\obj\Debug\net8.0\refint\D424CapstoneUnitTest.dll

@@ -6,5 +6,7 @@
     <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\dotnet_bot@3x.png" />
     <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\notification.png" />
     <BundleResource Include="C:\D424Capstone\D424Capstone\obj\Release\net8.0-maccatalyst\resizetizer\r\Resources\share.png" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Regular.ttf" />
+    <BundleResource Include="obj\Release\net8.0-maccatalyst\resizetizer\f\OpenSans-Semibold.ttf" />
   </ItemGroup>
 </Project>
