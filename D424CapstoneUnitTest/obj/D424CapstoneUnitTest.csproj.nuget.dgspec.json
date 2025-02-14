@@ -344,10 +344,13 @@
               "version": "[18.0.8319, 18.0.8319]"
             },
             {
+<<<<<<< HEAD
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
             },
             {
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
               "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
               "version": "[18.0.8319, 18.0.8319]"
             }
@@ -466,6 +469,7 @@
           "warn": true,
           "downloadDependencies": [
             {
+<<<<<<< HEAD
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
               "version": "[9.0.2, 9.0.2]"
             },
@@ -484,6 +488,10 @@
             {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
               "version": "[9.0.2, 9.0.2]"
+=======
+              "name": "Microsoft.Windows.SDK.NET.Ref",
+              "version": "[10.0.26100.57, 10.0.26100.57]"
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
             }
           ],
           "frameworkReferences": {
@@ -513,9 +521,12 @@
         "iossimulator-x64": {
           "#import": []
         },
+<<<<<<< HEAD
         "maccatalyst-arm64": {
           "#import": []
         },
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
         "maccatalyst-x64": {
           "#import": []
         },

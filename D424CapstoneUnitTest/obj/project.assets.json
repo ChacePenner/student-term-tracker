@@ -7671,6 +7671,7 @@
         "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
+<<<<<<< HEAD
   },
   "logs": [
     {
@@ -7680,4 +7681,7 @@
       "message": "Problem reading the cache file C:\\D424Capstone\\D424CapstoneUnitTest\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
     }
   ]
+=======
+  }
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
 }

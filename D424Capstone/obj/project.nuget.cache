@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "pIFKpIiP7Z4=",
+=======
+  "dgSpecHash": "A+tzJF5VeBY=",
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
   "success": true,
   "projectFilePath": "C:\\D424Capstone\\D424Capstone\\D424Capstone.csproj",
   "expectedPackageFiles": [
@@ -163,6 +167,7 @@
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.android.ref.34\\34.0.147\\microsoft.android.ref.34.34.0.147.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.android.runtime.34.android-arm\\34.0.147\\microsoft.android.runtime.34.android-arm.34.0.147.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.android.runtime.34.android-x86\\34.0.147\\microsoft.android.runtime.34.android-x86.34.0.147.nupkg.sha512",
+<<<<<<< HEAD
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.runtime.maccatalyst-arm64.net8.0_18.0.18.0.8319.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8319.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maccatalyst.ref.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.ref.net8.0_18.0.18.0.8319.nupkg.sha512",
@@ -171,6 +176,11 @@
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.aspnetcore.app.runtime.win-x64\\9.0.2\\microsoft.aspnetcore.app.runtime.win-x64.9.0.2.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.windowsdesktop.app.runtime.win-x64\\9.0.2\\microsoft.windowsdesktop.app.runtime.win-x64.9.0.2.nupkg.sha512",
     "C:\\Users\\Chace\\.nuget\\packages\\microsoft.netcore.app.runtime.win-x64\\9.0.2\\microsoft.netcore.app.runtime.win-x64.9.0.2.nupkg.sha512"
+=======
+    "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.runtime.maccatalyst-x64.net8.0_18.0.18.0.8319.nupkg.sha512",
+    "C:\\Users\\Chace\\.nuget\\packages\\microsoft.maccatalyst.ref.net8.0_18.0\\18.0.8319\\microsoft.maccatalyst.ref.net8.0_18.0.18.0.8319.nupkg.sha512",
+    "C:\\Users\\Chace\\.nuget\\packages\\microsoft.windows.sdk.net.ref\\10.0.26100.57\\microsoft.windows.sdk.net.ref.10.0.26100.57.nupkg.sha512"
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
   ],
   "logs": []
 }

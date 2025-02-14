@@ -1,14 +1,26 @@
+<<<<<<< HEAD
 aotassemblies=true
 androidaddkeepalives=true
 androidaotmode=normal
 androidembedprofilers=
 androidenableprofiledaot=true
+=======
+aotassemblies=false
+androidaddkeepalives=true
+androidaotmode=none
+androidembedprofilers=
+androidenableprofiledaot=
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
 androiddextool=d8
 androidlinktool=
 androidlinkresources=false
 androidpackageformat=aab
 embedassembliesintoapk=true
+<<<<<<< HEAD
 androidlinkmode=sdkonly
+=======
+androidlinkmode=
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
 androidlinkskip=
 androidsdkbuildtoolsversion=34.0.0
 androidsdkpath=c:\users\chace\appdata\local\android\android-sdk\
@@ -24,7 +36,11 @@ androidgeneratejnimarshalmethods=false
 os=windows_nt
 androidincludedebugsymbols=false
 androidpackagenamingpolicy=lowercasecrc64
+<<<<<<< HEAD
 _nugetassetsfilehash=77854ea3c897e50838ac0dd60e16df2cec5df2b16fb486ca2888f6fcc808dcbd
+=======
+_nugetassetsfilehash=e943cf23921a4c944f4dc8189be038b1dd99f41b2e061c51d2f57ef8b7a8bd9d
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
 typemapkind=mvid
 androidmanifestplaceholders=
 projectfullpath=c:\d424capstone\d424capstone\d424capstone.csproj

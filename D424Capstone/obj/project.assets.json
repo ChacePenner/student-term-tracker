@@ -3189,6 +3189,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "net8.0/maccatalyst-arm64": {
       "BCrypt.Net-Next/4.0.3": {
         "type": "package",
@@ -3707,6 +3708,8 @@
         }
       }
     },
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
     "net8.0/maccatalyst-x64": {
       "BCrypt.Net-Next/4.0.3": {
         "type": "package",
@@ -17372,6 +17375,7 @@
         }
       },
       "Microsoft.NET.ILLink.Tasks/8.0.13": {
+<<<<<<< HEAD
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -19808,6 +19812,8 @@
         }
       },
       "Microsoft.NET.ILLink.Tasks/8.0.13": {
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
         "type": "package",
         "build": {
           "build/Microsoft.NET.ILLink.Tasks.props": {}
@@ -34559,6 +34565,7 @@
         }
       }
     },
+<<<<<<< HEAD
     "net9.0-ios18.2/maccatalyst-arm64": {
       "BCrypt.Net-Next/4.0.3": {
         "type": "package",
@@ -35076,6 +35083,8 @@
         }
       }
     },
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
     "net9.0-ios18.2/maccatalyst-x64": {
       "BCrypt.Net-Next/4.0.3": {
         "type": "package",
@@ -41198,7 +41207,11 @@
         }
       }
     },
+<<<<<<< HEAD
     "net9.0-windows10.0.26100/maccatalyst-arm64": {
+=======
+    "net9.0-windows10.0.26100/maccatalyst-x64": {
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
       "BCrypt.Net-Next/4.0.3": {
         "type": "package",
         "compile": {
@@ -41853,6 +41866,7 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {
             "related": ".xml"
           },
+<<<<<<< HEAD
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
         },
         "build": {
@@ -42674,6 +42688,8 @@
           "lib/net6.0-windows10.0.18362.0/Microsoft.Windows.Widgets.Projection.dll": {
             "related": ".xml"
           },
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
           "lib/net6.0-windows10.0.18362.0/Microsoft.WindowsAppRuntime.Bootstrap.Net.dll": {}
         },
         "build": {
@@ -50037,10 +50053,13 @@
           {
             "name": "Microsoft.MacCatalyst.Ref.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
+<<<<<<< HEAD
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64.net8.0_18.0",
             "version": "[18.0.8319, 18.0.8319]"
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
           },
           {
             "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-x64.net8.0_18.0",
@@ -50175,10 +50194,13 @@
           {
             "name": "Microsoft.Windows.SDK.NET.Ref",
             "version": "[10.0.26100.57, 10.0.26100.57]"
+<<<<<<< HEAD
           },
           {
             "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
             "version": "[9.0.2, 9.0.2]"
+=======
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
           }
         ],
         "frameworkReferences": {

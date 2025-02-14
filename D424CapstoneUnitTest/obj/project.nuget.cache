@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "g+LmlLsteBI=",
+=======
+  "dgSpecHash": "Rvx+MUmLfSE=",
+>>>>>>> 0e4119582025ab295371d63100ad94ad7f326542
   "success": true,
   "projectFilePath": "C:\\D424Capstone\\D424CapstoneUnitTest\\D424CapstoneUnitTest.csproj",
   "expectedPackageFiles": [
