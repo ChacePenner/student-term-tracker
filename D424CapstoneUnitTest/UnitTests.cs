@@ -11,7 +11,7 @@ namespace D424CapstoneUnitTest
             DependencyService.Register<DummyFontNamedSizeService>();
         }
         [Fact]
-        public async Task Test1()
+        public async Task DuplicateUsername()
             //Test to ensure that the "duplicate username" error message appears when a user attempts
             //to use the same username multiple times when registering
         {
@@ -31,7 +31,7 @@ namespace D424CapstoneUnitTest
         }
 
         [Fact]
-        public async Task InvalidCreditials()
+        public async Task InvalidCredentials()
         {
             var testDb = new TestingDatabase();
             testDb.TestUsers.Add(new D424Capstone.Models.Users
