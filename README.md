@@ -34,7 +34,7 @@ The application may also be installed directly onto any Android device.
 
 1. Download the Application File
 
-    a. Download .apk file labeled “student_term_tracker.apk”
+    a. Download .apk file labeled “student_term_tracker.apk” from the releases. https://github.com/ChacePenner/student-term-tracker/releases/tag/v1.0
        
     b. Save the file onto your desktop, where it can be accessed later. This file is the
        installable package for the mobile app.
