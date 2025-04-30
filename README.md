@@ -1,6 +1,7 @@
 # User Guide
 
-Introduction
+##Introduction
+
 The user guide is separated into two parts. The first part explains how to download,
 install, and test the mobile application with Android Studio. The second part explains how to
 interact with the application from a user perspective.
@@ -10,19 +11,20 @@ The application may also be installed directly onto any Android device.
 ## Installation
 
 1. Download the Application File
+
     a. Download .apk file labeled “student_term_tracker.apk”
        
     b. Save the file onto your desktop, where it can be accessed later. This file is the
        installable package for the mobile app.
    
-3. Install Android Studio
+2. Install Android Studio
    
     a. Download Android Studio from the official website.
    
     b. Follow the on-screen installation instructions to install Android Studio onto
        your computer. Android Studio is required to manage Android emulators.
    
-5. Launch Android Studio and Access the Device Manager
+3. Launch Android Studio and Access the Device Manager
 
     a. Click the hamburger menu (three horizontal lines) in the top left corner.
    
@@ -34,6 +36,7 @@ The application may also be installed directly onto any Android device.
 
 
 4. Create a New Virtual Device
+
     a. In the Device Manager, click the + button and select Create New Virtual
        Device.
 
@@ -60,6 +63,7 @@ The application may also be installed directly onto any Android device.
    c. Wait for the emulator to launch and load the Android home screen.
 
 6. Install the Application on the Emulator
+
     a. With the emulator running, locate the downloaded .apk file on your Desktop.
    
     b. Click and drop the .apk file onto the emulator window.
