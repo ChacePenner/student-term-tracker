@@ -1,10 +1,27 @@
-# About
+# Student Term Tracker - An Android application by Chace Penner
+
+- [About ❓](#about-)
+- [User Guide 📃](#user-guide-)
+   * [Introduction](#introduction)
+   * [Installation](#installation)
+- [Using the Application 💻](#using-the-application)
+   * [Register and Login](#register-and-login)
+   * [Adding, Editing, Deleting, and Viewing a Term](#adding-editing-deleting-and-viewing-a-term)
+   * [Adding, Editing, Deleting, and Viewing a Course](#adding-editing-deleting-and-viewing-a-course)
+   * [Setting Course Reminders and Sharing Notes](#setting-course-reminders-and-sharing-notes)
+   * [Adding, Editing, and Deleting Course Assessments](#adding-editing-and-deleting-course-assessments)
+   * [Setting Assessment Reminders](#setting-assessment-reminders)
+   * [Searching for Courses](#searching-for-courses)
+   * [Generating a Report](#generating-a-report)
+
+
+# About ❓
 
 The Student Term Tracker is an Android application that utilizes SQLite to allow users to create and track their terms, courses, and assessments. 
 The SQLite database allows users to create multiple individual profiles on the same device using secure username and password storage. 
 The mobile application offers a term report function to easily view all terms, their respective courses, and start and end dates.
 
-# User Guide
+# Setting Up the Application 📃
 
 ## Introduction
 
@@ -89,9 +106,9 @@ The application may also be installed directly onto any Android device.
    c. The emulator has now been successfully installed and launched.
 
    
-## Using the Application
+# Using the Application 💻
 
-### Register and Login
+## Register and Login
 
 You will be presented with the login page upon opening the application. First, you must
 register a username and password to use to login. To do so, select the “Register” button, enter a
@@ -102,7 +119,7 @@ username and password and select the “Login” button.
 ![image](https://github.com/user-attachments/assets/d33343d7-e50c-463d-af2a-22445451aa84)
 
 
-### Adding, Editing, Deleting, and Viewing a Term
+## Adding, Editing, Deleting, and Viewing a Term
 
 The application will navigate to the Term View page after a successful login. To add a
 term, select the +Add Term button. You will be taken to the Add Term screen where you must
@@ -134,7 +151,7 @@ To view inside a term, select the term in the term view and click the View butto
 ![image](https://github.com/user-attachments/assets/11de312a-eb20-46e0-a4d2-cf7aa51666d6)
 
 
-### Adding, Editing, Deleting, and Viewing a Course
+## Adding, Editing, Deleting, and Viewing a Course
 
 You can now add a course on the term view page. To do so, select the +Add Course
 button. You will be taken to a screen where you can enter the course name, start and end dates,
@@ -162,7 +179,7 @@ dialogue.
 ![image](https://github.com/user-attachments/assets/feb2c804-7b1c-4d63-a0d8-d75e6c0f3f30)
 
 
-### Setting Course Reminders and Sharing Notes
+## Setting Course Reminders and Sharing Notes
 
 You may set a course reminder by selecting the bell icon above the delete button. The
 first time you utilize this feature, you will be asked if you would like to allow the application to
@@ -187,7 +204,7 @@ via your messages app.
 
 ![image](https://github.com/user-attachments/assets/84f53c73-0c7a-4053-9508-e15b8643ba9c)
 
-### Adding, Editing, and Deleting Course Assessments
+## Adding, Editing, and Deleting Course Assessments
 
 You are able to add one objective assessment and one performance assessment to each
 course. To do so, navigate to the course details screen. From there, scroll down and select the
@@ -203,7 +220,7 @@ navigate to the Edit Assessment screen. Change any details you wish and select s
 ![image](https://github.com/user-attachments/assets/153b7447-25b9-492b-8de7-bc5d651f817c)
 
 
-### Setting Assessment Reminders
+## Setting Assessment Reminders
 
 After you have added an assessment, a bell icon will appear next to it. You can select the
 bell icon to set a reminder for the assessment. Follow the prompt on the screen to set a reminder
@@ -214,7 +231,7 @@ date.
 ![image](https://github.com/user-attachments/assets/56d3718c-e5ba-4aa8-917c-3dcde4fe2cda)
 
 
-### Searching for Courses
+## Searching for Courses
 
 To search for a course, navigate to the Term View page. Find the text box with the text
 “Search for a course within a term...” Select in the text box and type in the name or partial name
@@ -226,7 +243,7 @@ button within the text field.
 
 
 
-### Generating a Report
+## Generating a Report
 
 To generate a report that displays every term and course within a term, navigate to the
 Term View page. Select the purple Generate Report option to navigate to the Generate Report
