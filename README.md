@@ -1,6 +1,12 @@
+# About
+
+The Student Term Tracker is an Android application that utilizes SQLite to allow users to create and track their terms, courses, and assessments. 
+The SQLite database allows users to create multiple individual profiles on the same device using secure username and password storage. 
+The mobile application offers a term report function to easily view all terms, their respective courses, and start and end dates.
+
 # User Guide
 
-##Introduction
+## Introduction
 
 The user guide is separated into two parts. The first part explains how to download,
 install, and test the mobile application with Android Studio. The second part explains how to
